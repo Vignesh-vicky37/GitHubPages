@@ -18,6 +18,8 @@ public class HappiestMindsLocation {
 
 	public static void main(String[] args) {
 
+		system.out.println("****** G I T H U B ******");
+
 		PostRequestBody prb = new PostRequestBody();
 		Location pl = new Location();
 		List<String> lp = new ArrayList<String>();
