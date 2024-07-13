@@ -24,6 +24,8 @@ public class GmapsWithSpec extends BaseClass{
 		Location pl = new Location();
 		List<String> lp = new ArrayList<String>();
 
+		system.out.println("***** G I T H U B *****");
+
 		prb.setAccuracy(75);
 		prb.setAddress("Electronics City Phase 1, Hosur Road, Bengaluru");
 		prb.setLanguage("English,Tamil,Kannada");
