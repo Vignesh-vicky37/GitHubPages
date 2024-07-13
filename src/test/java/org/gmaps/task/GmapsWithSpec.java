@@ -104,7 +104,7 @@ public class GmapsWithSpec extends BaseClass{
 				.delete("/maps/api/place/delete/json").then().log().body().spec(resSpec).
 				extract().response().as(DeleteResponseBody.class);
 		System.out.println("DELETE METHOD RESPONSE BODY:- \n");
-		System.out.println("STATUS : \t" +delResBody.getStatus());		
+		System.out.println("STATUS : \t" +delResBody.getStatus()+"\n");		
 
 //GET METHOD
 		
